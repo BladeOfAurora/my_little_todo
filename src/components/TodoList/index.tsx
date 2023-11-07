@@ -1,7 +1,7 @@
 import * as UI from "../../style.ts"
 import * as LUI from "./style.ts"
 import { ITodoItem } from "../data.ts";
-import { useAppSelector } from "../../hooks/useAppSelector.ts";
+import { useAppSelector } from "@/hooks/useAppSelector.ts";
 import { TodoItem } from "../TodoItem";
 export const TodoList = () => {
     const todoItems = useAppSelector(state => state.todos)

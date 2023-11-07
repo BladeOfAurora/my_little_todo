@@ -3,8 +3,8 @@ import cancelSvg from "../../assets/cancel.svg";
 import completeSvg from "../../assets/complete.svg";
 import trashSvg from "../../assets/trash.svg";
 import { ITodoItem } from "../data.ts";
-import { useAppDispatch } from "../../hooks/useAppDispatch.ts";
-import { changeStatus } from "../../features/todoListSlice.ts";
+import { useAppDispatch } from "@/hooks/useAppDispatch.ts";
+import { changeStatus } from "@/features/todoListSlice.ts";
 
 export const TodoItem = (props: ITodoItem) => {
     const  { id, label, status } = props

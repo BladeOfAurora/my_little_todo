@@ -1,8 +1,8 @@
 import * as UI from "../../style.ts"
 import * as LUI from "./style.ts"
-import {Dispatch} from "react";
-import {Search} from "../Search";
-import {Theme} from "../Search/style.ts";
+import { Dispatch } from "react";
+import { Search } from "../Search";
+import { Theme } from "../Search/style.ts";
 
 interface INavBar {
     theme: string | undefined

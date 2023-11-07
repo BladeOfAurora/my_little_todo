@@ -1,6 +1,6 @@
 import * as LUI from "./style.ts"
-import {ChangeEvent, useEffect, useState} from "react";
-import {useDebounce} from "../../hooks/useDebounce.ts";
+import { ChangeEvent, useEffect, useState } from "react";
+import { useDebounce } from "@/hooks/useDebounce.ts";
 
 export const Search = () => {
     const [ searchText, setSearchText ] = useState<string>('')
